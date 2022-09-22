@@ -21,6 +21,10 @@ img {
 }
 
 @media screen and (max-width: 705px) {
+    body {
+        align-items: flex-start;
+    }
+
     .banner-web {
         display: none;
     }
