@@ -9,11 +9,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
 img {
+    max-width: 100%;
     width: 100%;
-    height: auto;
+    height: auto !important;
 }
 
 .banner-mobile {
