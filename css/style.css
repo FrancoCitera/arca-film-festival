@@ -15,11 +15,19 @@ body {
 img {
     max-width: 100%;
     width: 100%;
-    height: auto !important;
+    max-height: auto !important;
 }
 
 .banner-mobile {
     display: none;
+}
+
+@media screen and (max-height: 780px) {
+    .banner-web {
+        max-width: 100%;
+        width: 1280px;
+        height: auto;
+    }
 }
 
 @media screen and (max-width: 705px) {
