@@ -12,12 +12,16 @@ body {
 }
 
 img {
-    width: 100%;
+    max-width: 100%;
     height: auto;
 }
 
 .banner-mobile {
     display: none;
+}
+
+@media screen and (max-height: 773px) {
+    
 }
 
 @media screen and (max-width: 705px) {
