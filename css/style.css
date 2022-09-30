@@ -25,7 +25,23 @@ img {
 @media screen and (max-height: 780px) {
     .banner-web {
         max-width: 100%;
+        width: 1480px;
+        height: auto;
+    }
+}
+
+@media screen and (max-height: 680px) {
+    .banner-web {
+        max-width: 100%;
         width: 1280px;
+        height: auto;
+    }
+}
+
+@media screen and (max-height: 580px) {
+    .banner-web {
+        max-width: 100%;
+        width: 1080px;
         height: auto;
     }
 }
