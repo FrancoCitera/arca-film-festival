@@ -8,18 +8,13 @@ body {
     height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center;
-    overflow: hidden;
+    align-items: flex-start;
 }
 
 img {
     max-width: 100%;
     width: 100%;
     max-height: auto !important;
-}
-
-.banner-mobile {
-    display: none;
 }
 
 @media screen and (max-height: 780px) {
@@ -47,19 +42,7 @@ img {
 }
 
 @media screen and (max-width: 705px) {
-    body {
-        align-items: flex-start;
-    }
-
     img {
         margin-top: -28px;
-    }
-
-    .banner-web {
-        display: none;
-    }
-
-    .banner-mobile {
-        display: block;
     }
 }
